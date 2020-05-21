@@ -1,0 +1,280 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: sans-serif;
+}
+.nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar{
+	background-image: linear-gradient(to right,#a517ba,#5f1782)
+}
+.navbar-brand img{
+	
+	margin-bottom: -10px;
+	margin-top: -10px;
+	padding-top: 2px;
+}
+
+.navbar-nav li {
+	padding:0 8px;
+}
+.navbar-nav li a{
+	color: white !important;
+	font-weight: 600;
+	float: right;
+}
+
+@media only screen and (max-width: 360px) {
+.navbar-brand img{
+	
+	width: 100px;
+	margin-bottom: -10px;
+	margin-top: -10px;
+}
+  
+}
+
+.fa-bars{
+	color: white;
+	font-size: 25px;
+}
+.navbar-toggler{
+	outline:none !important;
+}
+/*     Banner section    */
+#Banner{
+	background-image: linear-gradient(to right,#a517ba,#5f1782);
+	color: white;
+	padding-top: 3%;
+}
+.heading{
+	font-size: 30px;
+	font-weight: 600;
+	margin-top: 20px; 
+}
+
+@media only screen and (min-width: 760px) {
+.container img{
+	margin-bottom: -60px;: 
+}
+  
+}
+
+.banner img{
+	margin-left: 10%;
+
+}
+
+/*     Services section    */
+#services{
+	padding: 80px 0px;
+}
+.services h4{
+	padding-top: 10px;
+	margin-top: 60px;
+	text-transform: uppercase;
+}
+.services{
+	padding:20px;
+}
+.title::before {
+	content:'';
+	background: #7b1798;
+	height:5px; 
+	width:200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	transform: translateY(60px);
+}
+
+.title::after {
+	content:'';
+	background: #7b1798;
+	height:10px; 
+	width:60px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+	display: block;
+	transform: translateY(4px);
+}
+/*T1 title 2 for mobile*/
+@media only screen and (max-width: 445px) {
+.T1::before {
+	content:'';
+	background: #7b1798;
+	height:5px; 
+	width:200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	transform: translateY(106px);
+}
+
+
+.T1::after {
+	content:'';
+	background: #7b1798;
+	height:10px; 
+	width:60px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+	display: block;
+	transform: translateY(2px);
+}
+}
+#services .btn-primary{
+	box-shadow: none;
+	border:none;
+	background-image: linear-gradient(to right,#a517ba,#5f1782);
+	border-radius: 20px;
+	padding: 8px 25px;
+}
+
+/*---------------------- About us ----------------------*/
+
+#about-us{
+	background: #f8f9fa;
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+.about-title{
+	margin-top: 3%;
+}
+
+#about-us ul {
+	margin-left: 4%;	
+}
+
+@media only screen and (max-width: 760px) {
+ 
+#about-us ul {
+	margin-left: 3%;
+	padding-left: 2%;
+}
+
+}
+
+.about-img img{
+	margin-left: 60px;
+	margin-top: 20px;
+}
+
+/*-------------------------Testimonials-----------------------*/
+
+#testimonials{
+	margin:100px 0px;
+}
+.testimonials{
+	border-left: 4px solid #7b1798;
+	margin:45px 0px;
+}
+.testimonials img{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	margin: 0px 20px;
+	margin-top: -5px;
+	margin-bottom: 10px;
+
+}
+.user-details{
+	display: inline-block;
+	font-size: 13px;
+}
+
+@media only screen and (min-width: 768px) {
+.t2 {
+	margin-left: 5%;
+}
+}
+/*Social Media Links*/
+
+#social-media{
+	background: #f8f9fa;
+	padding: 70px 0px;
+	margin-bottom: 20px;: 
+}
+.social-icons img{
+	width: 80px; 
+	transition-duration: 0.5s
+}
+.social-icons a:hover img{
+	transform: translateY(-15px);
+}
+/*----------------------Footer-------------------*/
+#footer{
+	background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
+.footer-img{
+	width: 100px;
+}
+.footer-box{
+	padding: 10px;
+}
+.footer-box img{
+	width: 120px;
+	margin-bottom: 20px;
+}
+.footer-box .fa{
+	margin-right: 8px;
+	font-size: 25px;
+	width: 40px;
+	height: 40px;
+	padding: 9px;
+	border-radius: 2px;
+	background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
+.footer-box .fa-map-marker{
+	padding: 11px;
+	margin-right: 7px;
+}
+.footer-box .fa-envelope-o{
+	padding: 8px;
+	margin-right: 9px;
+}
+.footer-box .form-control{
+	box-shadow: none !important; 
+	border: none;
+	border-radius: 20px;
+	margin-top: 25px;
+	max-width: 250px;
+}
+.footer-box .btn-primary{
+	box-shadow: none !important; 
+	border: none;
+	border-radius: 25px;
+	margin-top: 30px;
+	background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
+
+/* footer center for mobile
+@media only screen and (max-width: 460px) {
+.footer-box{
+	text-align: center;
+}
+.footer-box input{
+	margin-left: 15%;
+}
+}
+*/
+
+hr{
+	margin-top: -10px;
+	background-color: white;
+}
+.copyright{
+	color: white;
+	text-align:center;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+	 
+}
